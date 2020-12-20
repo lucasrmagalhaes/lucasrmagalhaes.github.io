@@ -545,7 +545,8 @@
                     },
                     {
                         "id": "editor.action.toggleMinimap",
-                        "label": "Show &&Minimap"
+                        "label": "Show &&Minimap",
+                        "checked": true
                     },
                     {
                         "id": "breadcrumbs.toggle",
