@@ -1,5 +1,13 @@
 # Lucas Magalhães - Portfolio
 
+Meu portfolio foi criado graças ao tutorial: [Responsive Personal Portfolio Website using HTML CSS & JavaScript](https://www.youtube.com/watch?v=tcskp-ncN0I&list=PLeEpiRHdVhbfM6HrlsCO4eZdo7Yrgouel&index=1&t=286s "Responsive Personal Portfolio Website using HTML CSS & JavaScript").
+
+##### Fontes:
+- [Font Awesome 5](https://www.w3schools.com/icons/fontawesome5_intro.asp "Font Awesome 5")
+- [Lorem Ipsum](https://www.lipsum.com/ "Lorem Ipsum")
+- [JQuery CDN](http://code.jquery.com/ "JQuery CDN")
+- [Google Fonts](https://fonts.google.com/ "Google Fonts")
+
 ##### Google Fonts - Configurações:
 
 ###### Poppins:
@@ -15,12 +23,3 @@
 
 ###### Import:
 - Embed - @import
-
-##### Fontes:
-- [Font Awesome 5](https://www.w3schools.com/icons/fontawesome5_intro.asp "Font Awesome 5")
-- [Lorem Ipsum](https://www.lipsum.com/ "Lorem Ipsum")
-- [JQuery CDN](http://code.jquery.com/ "JQuery CDN")
-- [Google Fonts](https://fonts.google.com/ "Google Fonts")
-
-##### Tutorial:
-[Responsive Personal Portfolio Website using HTML CSS & JavaScript](https://www.youtube.com/watch?v=tcskp-ncN0I&list=PLeEpiRHdVhbfM6HrlsCO4eZdo7Yrgouel&index=1&t=286s "Responsive Personal Portfolio Website using HTML CSS & JavaScript")
