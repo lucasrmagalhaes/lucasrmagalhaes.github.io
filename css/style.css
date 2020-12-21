@@ -131,16 +131,12 @@
     background: none;
 }
 
-/* about section styling */
+/* all similiar content styling code */
 section {
     padding: 100px 0;
 }
 
-.about {
-    font-family: 'Poppins', sans-serif;
-}
-
-.about .title {
+section .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -150,7 +146,7 @@ section {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.about .title::before {
+section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -161,8 +157,7 @@ section {
     transform: translateX(-50%);
 }
 
-.about .title::after {
-    content: "Who i am";
+section .title::after {
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -173,7 +168,17 @@ section {
     transform: translateX(-50%);
 }
 
-.about .about-content {
+/* about section styling */
+.about, .services {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .title::after {
+    content: "who i am";
+}
+
+.about .about-content,
+.services .serv-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;  
@@ -225,6 +230,59 @@ section {
 .about .about-content .right a:hover {
     color: #00BFFF;
     background: none;
+}
+
+/* services section styling */
+.services {
+    color: #fff;
+    background: #111;
+}
+
+.services .title::before {
+    background: #fff;
+}
+
+.services .title::after {
+    background: #111;
+    content: "what i provide";
+}
+
+.services .serv-content .card {
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover {
+    background: #00BFFF;
+}
+
+.services .serv-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.services .serv-content .card i {
+    font-size: 50px;
+    color: #00BFFF;
+    transition: color 0.3s ease;
+}
+
+.services .serv-content .card:hover i {
+    color: #fff;
+}
+
+.services .serv-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
 
 /* responsive media query start */
@@ -312,7 +370,11 @@ section {
 
     .about .about-content .right {
         flex: 100%;
+    }
 
+    .services .serv-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
     }
 }
 
@@ -331,6 +393,10 @@ section {
 
     .home .home-content a {
         font-size: 20px;
+    }
+
+    .services .serv-content .card {
+        width: 100%;
     }
 }
 
