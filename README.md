@@ -28,25 +28,5 @@
 
 ##### cdnjs - Settings:
 - waypoints
-
-<pre>
-<script 
-  src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
-</script>
-</pre>
-
 - OwlCarousel2
-
-<pre>
-<script 
-  src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-</script>
-</pre>
-
 - Asset Type: Styling
-
-`
-<link 
-rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-/>
-`
