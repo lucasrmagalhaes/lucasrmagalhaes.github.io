@@ -7,6 +7,7 @@
 - [Lorem Ipsum](https://www.lipsum.com/ "Lorem Ipsum")
 - [JQuery CDN](http://code.jquery.com/ "JQuery CDN")
 - [Google Fonts](https://fonts.google.com/ "Google Fonts")
+- [cdnjs](https://cdnjs.com/ "cdnjs")
 
 ##### Google Fonts - Settings:
 
@@ -23,8 +24,6 @@
 
 ###### Import:
 - Embed - @import
-
-- [cdnjs](https://cdnjs.com/ "cdnjs")
 
 ##### cdnjs - Settings:
 - waypoints
