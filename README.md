@@ -29,3 +29,4 @@
 - waypoints
 - OwlCarousel2
 - Asset Type: Styling
+- typed.js
