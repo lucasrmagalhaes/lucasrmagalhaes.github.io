@@ -1,5 +1,9 @@
 # Lucas Magalhães - Portfolio
 
+<p align="center">
+  <img src="https://github.com/lucasrmagalhaes/lucasrmagalhaes-portfolio/blob/main/img/capa.jpg" alt="Portfolio">
+</p>
+
 - My portfolio was created thanks to the sources below.
 
 ##### Sources:
