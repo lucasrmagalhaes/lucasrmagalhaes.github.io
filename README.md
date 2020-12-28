@@ -1,4 +1,3 @@
-#  SNAKE GAME  :snake:
 [![portfolio lucasrmagalhaes](https://github.com/lucasrmagalhaes/lucasrmagalhaes-portfolio/blob/main/img/capa.jpg "portfolio")](http://lucasrmagalhaes.rf.gd/ "portfolio")
 - My portfolio was created thanks to the sources below.
 ------------
