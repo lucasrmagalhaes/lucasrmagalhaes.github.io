@@ -1,7 +1,18 @@
-[![portfolio lucasrmagalhaes](https://github.com/lucasrmagalhaes/lucasrmagalhaes-portfolio/blob/main/img/capa.jpg "portfolio")](http://lucasrmagalhaes.rf.gd/ "portfolio")
-- My portfolio was created thanks to the sources below.
-------------
-##### Sources:
+<p align="center">
+  <a href="http://lucasrmagalhaes.rf.gd/" target="_blank">
+    <img 
+         src="https://github.com/lucasrmagalhaes/lucasrmagalhaes-portfolio/blob/main/img/capa.jpg" 
+         alt="Portfolio" 
+    />
+  </a>
+  <br />
+  My portfolio was created thanks to the sources below.
+</p>
+
+<hr />
+
+<h5 align="left">Sources:</h5>
+
 - [Responsive Personal Portfolio Website using HTML CSS & JavaScript](https://www.youtube.com/watch?v=tcskp-ncN0I&list=PLeEpiRHdVhbfM6HrlsCO4eZdo7Yrgouel&index=1&t=286s "Responsive Personal Portfolio Website using HTML CSS & JavaScript")
 - [Font Awesome 5](https://www.w3schools.com/icons/fontawesome5_intro.asp "Font Awesome 5")
 - [Lorem Ipsum](https://www.lipsum.com/ "Lorem Ipsum")
@@ -11,8 +22,10 @@
 - [Hosting Sites for Free](https://www.youtube.com/watch?v=w_2pxwIS1yY "Hosting Sites for Free")
 - [Infinity Free](https://app.infinityfree.net/ "Infinity Free")
 - [Monsta FTP](http://binottotecnologia.com.br/ftp-web/ "Monsta FTP")
-------------
-##### Google Fonts - Settings:
+
+<hr />
+
+<h5 align="left">Google Fonts - Settings:</h5>
 
 ###### Poppins:
 - Regular 400
@@ -27,7 +40,9 @@
 
 ###### Import:
 - Embed - @import
-------------
+
+<hr />
+
 ##### cdnjs - Settings:
 - waypoints
 - OwlCarousel2
