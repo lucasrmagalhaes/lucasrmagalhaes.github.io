@@ -33,27 +33,25 @@
 <details>
   <summary><strong>Fonts</strong></summary>
   
-  <br />
+  <h4 align="left">Google Fonts - Settings:</h4>
 
-  <h5 align="left">Google Fonts - Settings:</h5>
-
-  ###### Poppins:
+  ##### Poppins:
   - Regular 400
   - Medium 500
   - Semi-bold 600
   - Bold 700
 
-  ###### Ubuntu:
+  ##### Ubuntu:
   - Regular 400
   - Medium 500
   - Bold 700
 
-  ###### Import:
+  ##### Import:
   - Embed - @import
 
   <hr />
 
-  ##### cdnjs - Settings:
+  #### cdnjs - Settings:
   - waypoints
   - OwlCarousel2
   - Asset Type: Styling
