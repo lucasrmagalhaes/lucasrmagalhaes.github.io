@@ -16,8 +16,6 @@
   
   <br />
   
-  <hr />
-  
   - [Responsive Personal Portfolio Website using HTML CSS & JavaScript](https://www.youtube.com/watch?v=tcskp-ncN0I&list=PLeEpiRHdVhbfM6HrlsCO4eZdo7Yrgouel&index=1&t=286s "Responsive Personal Portfolio Website using HTML CSS & JavaScript")
   - [Font Awesome 5](https://www.w3schools.com/icons/fontawesome5_intro.asp "Font Awesome 5")
   - [Lorem Ipsum](https://www.lipsum.com/ "Lorem Ipsum")
@@ -27,8 +25,15 @@
   - [Hosting Sites for Free](https://www.youtube.com/watch?v=w_2pxwIS1yY "Hosting Sites for Free")
   - [Infinity Free](https://app.infinityfree.net/ "Infinity Free")
   - [Monsta FTP](http://binottotecnologia.com.br/ftp-web/ "Monsta FTP")
+  
+</details>
 
-  <hr />
+<hr />
+  
+<details>
+  <summary><strong>Fonts</strong></summary>
+  
+  <br />
 
   <h5 align="left">Google Fonts - Settings:</h5>
 
@@ -53,9 +58,7 @@
   - OwlCarousel2
   - Asset Type: Styling
   - typed.js
-  
-  <hr />
-  
+
 </details>
 
 <hr />
