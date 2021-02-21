@@ -1,80 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script>
-        $(document).ready(function() {
-    $(window).scroll(function() {
-        if(this.scrollY > 20) {
-            $('.navbar').addClass("sticky");
-        } else {
-            $('.navbar').removeClass("sticky");
-        }
-        if(this.scrollY > 500) {
-            $('.scroll-up-btn').addClass("show");
-        } else {
-            $('.scroll-up-btn').removeClass("show");
-        }
-    });
-
-    // slide-up script
-    $('.scroll-up-btn').click(function() {
-        $('html').animate({scrollTop: 0});
-    });
-
-    // toggle menu/navbar script
-    $('.menu-btn').click(function() {
-        $('.navbar .menu').toggleClass("active");
-        $('.menu-btn i').toggleClass("active");
-    });
-
-    // typing animation script
-    var typed = new Typed(".typing", {
-        strings: ["Student", "Developer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing-2", {
-        strings: ["Student", "Developer"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    // owl carousel script
-    $('.carousel').owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: false
-            },
-            600: {
-                items: 2,
-                nav: false
-            },
-            1000: {
-                items: 3,
-                nav: false
-            }
-        }
-    });
-});
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Magalhães</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/96ca4a7e91.js"></script>
     <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if(this.scrollY > 20) {
+                    $('.navbar').addClass("sticky");
+                } else {
+                    $('.navbar').removeClass("sticky");
+                }
+                if(this.scrollY > 500) {
+                    $('.scroll-up-btn').addClass("show");
+                } else {
+                    $('.scroll-up-btn').removeClass("show");
+                }
+            });
+
+            // slide-up script
+            $('.scroll-up-btn').click(function() {
+                $('html').animate({scrollTop: 0});
+            });
+
+            // toggle menu/navbar script
+            $('.menu-btn').click(function() {
+                $('.navbar .menu').toggleClass("active");
+                $('.menu-btn i').toggleClass("active");
+            });
+
+            // typing animation script
+            var typed = new Typed(".typing", {
+                strings: ["Student", "Developer"],
+                typeSpeed: 100,
+                backSpeed: 60,
+                loop: true
+            });
+
+            var typed = new Typed(".typing-2", {
+                strings: ["Student", "Developer"],
+                typeSpeed: 100,
+                backSpeed: 60,
+                loop: true
+            });
+
+            // owl carousel script
+            $('.carousel').owlCarousel({
+                margin: 20,
+                loop: true,
+                autoplayTimeOut: 2000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: false
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -117,7 +118,7 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="./profile.png" alt="Profile">
+                    <img src="./img/profile.png" alt="Profile">
                 </div>
                 <div class="column right">
                     <div class="text">
@@ -146,8 +147,10 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">COBOL</div>
-                        <p>Actually working as a COBOL Developer.</p>
+                        <div class="text">Developer</div>
+                        <p>
+                            Actually working as a Jr. Developer using COBOL, PHP, JS, HTML and CSS.
+                        </p>
                     </div>
                 </div>
                 <div class="card">
@@ -260,7 +263,7 @@
                 <div class="card">
                     <div class="box">
                         <a href="https://github.com/lucasrmagalhaes/snake-js">
-                            <img src="./snake.jpg" alt="Snake Game">
+                            <img src="./img/snake.jpg" alt="Snake Game">
                         </a>
                         <div class="text">Snake Game</div>
                         <p>Famous "snake game" developed in JavaScript.</p>
@@ -269,7 +272,7 @@
                 <div class="card">
                     <div class="box">
                         <a href="https://github.com/lucasrmagalhaes/api_criptomoedas-js">
-                            <img src="./api-coinmarketcap.jpg" alt="API: Coin Market Cap">
+                            <img src="./img/api-coinmarketcap.jpg" alt="API: Coin Market Cap">
                         </a>
                         <div class="text">API: Coin Market Cap</div>
                         <p>Fetching from API data: Coin Market Cap.</p>
@@ -278,7 +281,7 @@
                 <div class="card">
                     <div class="box">
                         <a href="https://github.com/lucasrmagalhaes/covid19-pwa">
-                            <img src="./covid19.jpg" alt="COVID-19 PWA">
+                            <img src="./img/covid19.jpg" alt="COVID-19 PWA">
                         </a>
                         <div class="text">COVID-19 PWA</div>
                         <p>
@@ -290,7 +293,7 @@
                 <div class="card">
                     <div class="box">
                         <a href="https://github.com/lucasrmagalhaes/resgate-js">
-                            <img src="./rescue.jpg" alt="Rescue Game">
+                            <img src="./img/rescue.jpg" alt="Rescue Game">
                         </a>
                         <div class="text">Rescue Game</div>
                         <p>
@@ -302,7 +305,7 @@
                 <div class="card">
                     <div class="box">
                         <a href="https://github.com/lucasrmagalhaes/randomPasswordGenerator">
-                            <img src="./random-password-generator.jpg" 
+                            <img src="./img/random-password-generator.jpg" 
                             alt="Random Password Generator">
                         </a>
                         <div class="text">Random Password Generator</div>
@@ -312,7 +315,7 @@
                 <div class="card">
                     <div class="box">
                         <a href="https://github.com/lucasrmagalhaes/netflix-clone">
-                            <img src="./netflix-interface.jpg" alt="Snake">
+                            <img src="./img/netflix-interface.jpg" alt="Snake">
                         </a>
                         <div class="text">Netflix Interface</div>
                         <p>
@@ -390,8 +393,5 @@
         <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
     </footer>
     <!-- footer section end -->
-
-    <script src="./script.js"></script>
-
 </body>
 </html>
