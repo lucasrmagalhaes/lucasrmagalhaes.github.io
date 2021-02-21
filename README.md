@@ -1,12 +1,12 @@
 <p align="center">
   <a href="https://lucasrmagalhaes.github.io/portfolio/" target="_blank">
     <img 
-         src="https://github.com/lucasrmagalhaes/lucasrmagalhaes-portfolio/blob/main/img/capa.jpg" 
+         src="https://github.com/lucasrmagalhaes/lucasrmagalhaes.github.io/blob/main/portfolio/img/capa.jpg" 
          alt="Portfolio" 
     />
   </a>
   <br />
-  <i>My portfolio was created thanks to the sources below.</i>
+  <i>Lucas Magalhães's Portofolio.</i>
 </p>
 
 <hr />
