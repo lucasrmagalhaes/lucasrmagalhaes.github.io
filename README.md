@@ -6,7 +6,7 @@
     />
   </a>
   <br />
-  <i>Lucas Magalhães's Portofolio.</i>
+  <i>Lucas Magalhães's Portfolio.</i>
 </p>
 
 <hr />
