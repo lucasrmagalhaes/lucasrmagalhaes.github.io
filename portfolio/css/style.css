@@ -385,20 +385,32 @@ section .title::after {
     background: #00BFFF;
 }
 
+.skills-content .right .mysql::before {
+    width: 60%;
+}
+
+.skills-content .right .react::before {
+    width: 30%;
+}
+
+.skills-content .right .sql::before {
+    width: 40%;
+}
+
 .skills-content .right .html::before {
-    width: 90%;
+    width: 80%;
 }
 
 .skills-content .right .css::before {
-    width: 90%;
+    width: 80%;
 }
 
 .skills-content .right .js::before {
-    width: 65%;
+    width: 60%;
 }
 
 .skills-content .right .cobol::before {
-    width: 60%;
+    width: 40%;
 }
 
 .skills-content .right .java::before {
@@ -406,19 +418,15 @@ section .title::after {
 }
 
 .skills-content .right .php::before {
-    width: 45%;
+    width: 50%;
 }
 
 .skills-content .right .angular::before {
     width: 40%;
 }
 
-.skills-content .right .mysql::before {
-    width: 60%;
-}
-
 .skills-content .right .support::before {
-    width: 95%;
+    width: 90%;
 }
 
 /* projects section styling */
