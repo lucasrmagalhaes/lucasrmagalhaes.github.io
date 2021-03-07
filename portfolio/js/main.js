@@ -25,14 +25,14 @@ $(document).ready(function() {
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["Student", "Developer"],
+        strings: ["Student", "Junior RPA Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Student", "Developer"],
+        strings: ["Student", "Junior RPA Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
