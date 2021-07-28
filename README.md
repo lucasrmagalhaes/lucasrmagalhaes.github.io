@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://lucasrmagalhaes.github.io/portfolio/" target="_blank">
+  <a href="https://lucasrmagalhaes-portfolio.netlify.app/" target="_blank">
     <img 
          src="https://github.com/lucasrmagalhaes/lucasrmagalhaes.github.io/blob/main/portfolio/img/capa.jpg" 
          alt="Portfolio" 
     />
   </a>
   <br />
-  <i>Lucas Magalhães's Portfolio.</i>
+  <i><a href="https://github.com/lucasrmagalhaes/lucasrmagalhaes.github.io/tree/gh-pages">Project</a></i>
 </p>
 
 <hr />
