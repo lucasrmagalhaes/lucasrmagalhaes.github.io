@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://lucasrmagalhaes-portfolio.netlify.app/" target="_blank">
     <img 
-         src="https://github.com/lucasrmagalhaes/lucasrmagalhaes.github.io/blob/main/portfolio/img/capa.jpg" 
+         src="https://github.com/lucasrmagalhaes/lucasrmagalhaes.github.io/blob/gh-pages/img/project.jpg?raw=true" 
          alt="Portfolio" 
     />
   </a>
