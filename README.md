@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://lucasrmagalhaes.github.io/" target="_blank">
     <img 
-         src="https://github.com/lucasrmagalhaes/lucasrmagalhaes.github.io/blob/gh-pages/img/project.jpg?raw=true" 
+         src="https://github.com/lucasrmagalhaes/lucasrmagalhaes.github.io/blob/gh-pages/img/portfolio.gif?raw=true" 
          alt="Portfolio" 
     />
   </a>
